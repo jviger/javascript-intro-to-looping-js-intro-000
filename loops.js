@@ -27,7 +27,7 @@ function maybeTrue() {
 var doWhileLoop = function(array){
   
   do{
-    array.pop();
+    array.split();
   }
   while(maybeTrue() && array.length > 0);
   
