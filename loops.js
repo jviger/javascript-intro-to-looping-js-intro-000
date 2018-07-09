@@ -26,7 +26,9 @@ function maybeTrue() {
 }
 var doWhileLoop = function(array){
   
-  do{}
-  while()
+  do{
+    array.pop();
+  }
+  while(maybeTrue() || array.length === 0);
   
 }
